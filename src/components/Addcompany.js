@@ -11,7 +11,7 @@ export default function Addcompany() {
     const formData = new FormData(formRef.current);
 
     try {
-      const response = await fetch("https://mernbackend-4-19g0.onrender.com/api/admin/job", {
+      const response = await fetch("https://mernbackend-6-zlu2.onrender.com/api/admin/job", {
         method: "POST",
         credentials: "include",
         body: formData,

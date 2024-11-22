@@ -9,7 +9,7 @@ export default function Applicationstatus() {
   useEffect(() => {
     const fetchJobs = async () => {
       try {
-        const response = await fetch('https://mernbackend-4-19g0.onrender.com/api/students/applications', {
+        const response = await fetch('https://mernbackend-6-zlu2.onrender.com/api/students/applications', {
           method: "GET",
           credentials: 'include',
           headers: {

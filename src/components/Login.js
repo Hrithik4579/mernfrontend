@@ -12,7 +12,7 @@ const Login = () => {
     e.preventDefault();
     data = { userId: credentials.email, password: credentials.password };
 
-    const response = await fetch("https://mernbackend-4-19g0.onrender.com/api/admin/login", {
+    const response = await fetch("https://mernbackend-6-zlu2.onrender.com/api/admin/login", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",

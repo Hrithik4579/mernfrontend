@@ -12,7 +12,7 @@ export default function Companyinfo(props) {
     const fetchCompany = async () => {
       try {
         const response = await fetch(
-          `https://mernbackend-4-19g0.onrender.com/api/admin/job/${companyId}`,
+          `https://mernbackend-6-zlu2.onrender.com/api/admin/job/${companyId}`,
           {
             method: "GET",
             credentials: "include",

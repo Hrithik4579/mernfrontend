@@ -10,7 +10,7 @@ export default function Applicationitem(props) {
     const fetchCompany = async () => {
       try {
         const response = await fetch(
-          `https://mernbackend-4-19g0.onrender.com/api/students/job/${props.job}`,
+          `https://mernbackend-6-zlu2.onrender.com/api/students/job/${props.job}`,
           {
             method: "GET",
             credentials: "include",
