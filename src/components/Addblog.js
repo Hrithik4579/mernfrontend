@@ -16,7 +16,7 @@ export default function Addblog() {
     }
 
     try {
-      const response = await fetch("https://mernbackend-6-zlu2.onrender.com/api/blogs", {
+      const response = await fetch("https://mernbackend-7-aus1.onrender.com/api/blogs", {
         method: "POST",
         credentials: "include",
         headers: {

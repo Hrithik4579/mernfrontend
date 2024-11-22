@@ -7,7 +7,7 @@ import { FaTrash } from "react-icons/fa";
 export default function Companyitem(props) {
   const deleteArticle = async () => {
     const response = await fetch(
-      `https://mernbackend-6-zlu2.onrender.com/api/admin/job/${props.id}`,
+      `https://mernbackend-7-aus1.onrender.com/api/admin/job/${props.id}`,
       {
         method: "PUT",
         credentials: "include",
@@ -24,7 +24,7 @@ export default function Companyitem(props) {
 
   const generateReport = async () => {
     const response = await fetch(
-      `https://mernbackend-6-zlu2.onrender.com/api/admin/job/report/${props.id}`,
+      `https://mernbackend-7-aus1.onrender.com/api/admin/job/report/${props.id}`,
       {
         method: "GET",
         credentials: "include",

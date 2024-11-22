@@ -11,7 +11,7 @@ export default function Applicationinfo() {
       try {
         console.log(companyId);
         const response = await fetch(
-          `https://mernbackend-6-zlu2.onrender.com/api/students/job/${companyId}`,
+          `https://mernbackend-7-aus1.onrender.com/api/students/job/${companyId}`,
           {
             method: "GET",
             credentials: "include",

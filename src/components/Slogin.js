@@ -14,7 +14,7 @@ const SLogin = (props) => {
   const handleSubmit = async (e) => {
     e.preventDefault();
 
-    const response = await fetch("https://mernbackend-6-zlu2.onrender.com/api/students/login", {
+    const response = await fetch("https://mernbackend-7-aus1.onrender.com/api/students/login", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",

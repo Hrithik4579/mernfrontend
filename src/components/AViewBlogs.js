@@ -7,7 +7,7 @@ export default function AViewBlogs() {
   const [searchCompany, setSearchCompany] = useState('');
   const fetchBlogs = async () => {
     try {
-      const response = await fetch('https://mernbackend-6-zlu2.onrender.com/api/blogs', {
+      const response = await fetch('https://mernbackend-7-aus1.onrender.com/api/blogs', {
         method: "GET",
         credentials: 'include',
         headers: {
@@ -39,7 +39,7 @@ export default function AViewBlogs() {
       fetchBlogs();
       return;
     }
-    fetch(`https://mernbackend-6-zlu2.onrender.com/api/blogs/company/${companyName}`)
+    fetch(`https://mernbackend-7-aus1.onrender.com/api/blogs/company/${companyName}`)
       .then(response => response.json())
       .then((data) => {
         console.log(data);

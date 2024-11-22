@@ -7,7 +7,7 @@ import { Link, useLocation } from "react-router-dom";
 export default function Anavbar() {
   const handleClick = async () => {
     try {
-      const response = await fetch(`https://mernbackend-6-zlu2.onrender.com/api/admin/logout`, {
+      const response = await fetch(`https://mernbackend-7-aus1.onrender.com/api/admin/logout`, {
         method: "DELETE",
         credentials: "include",
         header: {

@@ -23,7 +23,7 @@ export default function Addstudent() {
     console.log(studentData);
 
     try {
-      const response = await fetch('https://mernbackend-6-zlu2.onrender.com/api/students/register', {
+      const response = await fetch('https://mernbackend-7-aus1.onrender.com/api/students/register', {
         method: 'POST',
         credentials: 'include',
         headers: {

@@ -11,7 +11,7 @@ export default function ABloginfo() {
 
     const fetchBlog = async () => {
       try {
-        const response = await fetch(`https://mernbackend-6-zlu2.onrender.com/api/blogs/${blogId}`, {
+        const response = await fetch(`https://mernbackend-7-aus1.onrender.com/api/blogs/${blogId}`, {
           method: "GET",
           credentials: 'include',
           headers: {
